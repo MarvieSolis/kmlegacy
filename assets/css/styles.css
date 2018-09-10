@@ -1,0 +1,301 @@
+body {
+    background-color: white;
+}
+
+.section {
+    margin-bottom: 150px;
+}
+
+/* NAVBAR */
+
+a {
+    transition: all 1s;
+}
+
+a:hover {
+    text-decoration: none;
+    color: gold;
+}
+
+.dropdown-toggle {
+    background-color: rgba(0, 0, 0, 0.4);
+    outline: none;
+    border: none;
+}
+
+.dropdown-toggle:active {
+    background-color: rgba(0, 0, 0, 0.4);
+    outline: none;
+    border: none;
+}
+
+.dropdown-menu {
+    background-color: rgba(0, 0, 0, 0.4);
+    outline: none;
+    border: none;
+}
+
+
+
+#wrapper {
+    width: 960px;
+}
+
+#navbar {
+    background-color: rgba(0, 0, 0, 0.4);
+    height: 50px;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+}
+
+#navbarLogo {
+    height: 50px;
+    margin-left: 20px;
+}
+
+#navbarLeft {
+    margin-top: 10px;
+    float: left;
+    width: 33%;
+    display: inline-block;
+}
+
+#navbarMiddle {
+    text-align: center;
+    vertical-align: middle;
+    width: 33%;
+    display: inline-block;
+}
+
+#navbarRight {
+    float: right;
+    margin-top: 10px;
+    width: 33%;
+    text-align: right;
+    display: inline-block;
+}
+
+.navbarLink {
+    margin: 20px;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+
+    transition: all 1s;
+}
+
+.dropdown-item:hover {
+    background-color: none;
+}
+
+.navbarLink:hover {
+    text-decoration: none;
+    color: gold;
+
+}
+
+.navSocial {
+    margin: 10px;
+    color: white;
+    font-family: 'Libre Franklin', sans-serif;
+
+    transition: all 1s;
+}
+
+.navSocial:hover {
+    text-decoration: none;
+    color: gold;
+}
+
+#carouselExampleIndicators {
+    position: relative;
+}
+
+#bannerText {
+    position: absolute;
+    display: inline-block;
+    top: 25%;
+    left: 39%;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 50px;
+}
+
+/* About */
+
+.header {
+    text-align: center;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#mission {
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+#missionBox {
+    width: 80%;
+}
+
+
+/* Roster */
+
+
+.rosterPic {
+    height: 300px;
+    opacity: 0.7;
+
+    transition: all 1s;
+}
+
+.rosterPic:hover {
+    height: 315px;
+    opacity: 1;
+}
+
+#rosterSection {
+    width: 90%;
+    flex-wrap: wrap;
+    justify-content: center;
+    display: flex;
+}
+
+
+/* Media */
+
+
+/* Booking */
+form {
+    width: 80%;
+    font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+#submitButton {
+    text-align: center;
+    background-color: black;
+    color: white;
+    margin: 50px;
+
+    transition: all 1s;
+}
+
+#submitButton:hover {
+    color: gold;
+}
+
+#booking {
+    margin-top: 100px;
+}
+
+
+/* Footer */
+
+#footer {
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
+.footerSection {
+    display: inline-block;
+    width: 33%;
+    margin-top: 25px;
+    height: 300px;
+}
+
+.footerHeader {
+    color: white;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 18px;
+}
+
+#footerText {
+    font-size: 14px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #666666;
+    width: 80%;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+td {
+    vertical-align: top;
+    width: 33%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+th {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+#footerLinks {
+    margin-top: 5px;
+}
+
+.footerSocial {
+    color: #AAAAAA;
+    margin-right: 10px;
+}
+
+#bookingLink {
+    color: #AAAAAA;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 16px;
+    margin-bottom: 5px;
+    transition: all 1s;
+}
+
+#bookingLink:hover {
+    color: gold;
+}
+
+.teamNames {
+    font-size: 14px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #AAAAAA;
+    margin-top: 5px;
+    font-size: 16px;
+
+    transition: all 1s;
+}
+
+.teamNames:hover {
+    color: gold;
+}
+
+.footerNav {
+    font-size: 14px;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    color: #AAAAAA;
+    margin-top: 5px;
+    font-size: 16px;
+
+    transition: all 1s;
+}
+
+.footerNav:hover {
+    color: gold;
+}
+
+#copyrightText {
+    color: #666666;
+    font-size: 14px;
+    text-align: center;
+}
+
+.copyright {
+    padding: 25px;
+}

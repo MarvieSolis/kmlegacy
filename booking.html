@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+
+<head>
+
+    <title>KM Legacy</title>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=0;" />
+
+
+    <!--favicon-->
+    <link rel="icon" type="image/png" href="./assets/images/kmllogo.jpg">
+
+    <!--Bootstrap CDN-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4"
+        crossorigin="anonymous">
+
+    <!--CSS-->
+    <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Libre+Franklin" rel="stylesheet">
+
+    <!--Fontawesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+
+
+</head>
+
+<body>
+
+
+    <div id="navbar" class="container-fluid section">
+        <span id="navbarLeft">
+            <a class="navSocial" href="https://www.youtube.com/user/KabaModernLegacy" target="_blank">
+                <i class="fab fa-youtube"></i>
+            </a>
+            <a class="navSocial" href="https://twitter.com/kmlegacy" target="_blank">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a class="navSocial" href="https://www.instagram.com/kmlegacy/?hl=en" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a class="navSocial" href="https://www.facebook.com/kabamodernlegacy/" target="_blank">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+        </span>
+        <span id="navbarMiddle">
+            <img id="navbarLogo" src="./assets/images/kmllogo2.png">
+        </span>
+        <span id="navbarRight">
+            <!-- <a class="navbarLink" href="#">Home</a>
+            <a class="navbarLink" href="#">Roster</a>
+            <a class="navbarLink" href="#">Media</a>
+            <a class="navbarLink" href="#">Contact</a> -->
+
+            <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true"
+                    aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                    <a class="dropdown-item navbarLink" href="./index.html">Home</a>
+                    <a class="dropdown-item navbarLink" href="#">Roster</a>
+                    <a class="dropdown-item navbarLink" href="#">Media</a>
+                    <a class="dropdown-item navbarLink" href="./booking.html">Booking</a>
+                </div>
+            </div>
+        </span>
+    </div>
+
+
+    <div id="booking" class="container-fluid section">
+        <h1 class="header">Booking</h1>
+        <div class="row justify-content-center">
+            <div class="col-auto">
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input type="name" class="form-control" id="clientName" placeholder="Enter Name">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="clientEmail" placeholder="Enter Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone</label>
+                        <input type="phone" class="form-control" id="clientPhone" placeholder="(###) ###-####">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea class="form-control" id="clientMessage" rows="3"></textarea>
+                    </div>
+                    <div class="row justify-content-center">
+                        <button type="submit" id="submitButton" class="btn">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div id="footer" class="container-fluid">
+
+        <table id="footerContent" style="width:100%">
+            <tr>
+                <th class="footerHeader">STAY CONNECTED</th>
+                <th class="footerHeader">KM KOLLECTIVE</th>
+                <th class="footerHeader">NAVIGATE</th>
+            </tr>
+            <tr>
+                <td>
+                    <p id="footerText">
+                        For performances and inquiries, please go to booking below.
+                    </p>
+                    <a id="bookingLink" href="./booking.html">Booking</a>
+                    <div id="footerLinks">
+                        <a class="footerSocial" href="https://www.youtube.com/user/KabaModernLegacy" target="_blank">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                        <a class="footerSocial" href="https://twitter.com/kmlegacy" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a class="footerSocial" href="https://www.instagram.com/kmlegacy/?hl=en" target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a class="footerSocial" href="https://www.facebook.com/kabamodernlegacy/" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </div>
+                </td>
+                <td>
+                    <a href="https://www.facebook.com/kabamodern/" alt="Kaba Modern Facebook" target="_blank"><h3 class="teamNames">Kaba
+                            Modern
+                        </h3></a>
+                    <a href="https://www.facebook.com/kabamodernkids/" alt="Kaba Kids Facebook" target="_blank"><h3 class="teamNames">Kaba
+                            Kids
+                        </h3></a>
+                    <a href="#"><h3 class="teamNames">KM Legacy</h3></a>
+                    <a href="https://www.facebook.com/kmkollective/" alt="KM Kollective Facebook" target="_blank"><h3 class="teamNames">KM
+                            Kollective
+                        </h3></a></td>
+                <td>
+                    <a href="./index.html"><h3 class="footerNav">Home</h3></a>
+                    <a href="./booking.html"><h3 class="footerNav">Booking</h3></a>
+                    <a href="#"><h3 class="footerNav">Shop</h3></a>
+                </td>
+            </tr>
+        </table>
+        <div class="copyright row justify-content-center">
+            <h3 id="copyrightText">
+                <i class="far fa-copyright"></i> 2018 Kaba Modern Legacy. All rights reserved.
+            </h3>
+        </div>
+    </div>
+
+
+
+    <!--Scripts-->
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
