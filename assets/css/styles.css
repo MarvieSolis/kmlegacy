@@ -172,7 +172,7 @@ a:hover {
 
 /* Booking */
 form {
-    width: 80%;
+    width: 100%;
     font-family: 'Alegreya Sans SC', sans-serif;
 }
 
@@ -191,6 +191,7 @@ form {
 
 #booking {
     margin-top: 100px;
+    width: 70%;
 }
 
 
@@ -229,17 +230,6 @@ form {
     margin-bottom: 5px;
 }
 
-td {
-    vertical-align: top;
-    width: 33%;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-th {
-    padding-left: 50px;
-    padding-right: 50px;
-}
 
 #footerLinks {
     margin-top: 5px;
@@ -298,4 +288,63 @@ th {
 
 .copyright {
     padding: 25px;
+}
+
+
+
+/* Mobile */
+
+@media only screen and (max-width : 667px) {
+
+.navSocial {
+    margin: 5px;
+}
+
+#navbarLogo {
+    height: 40px;
+}
+
+#mission {
+    font-size: 18px;
+}
+
+.rosterPic {
+    height: 135px;
+}
+
+.rosterPic:hover {
+    height: 140px;
+}
+
+#footer {
+    background-color: black;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+#footerText {
+    display: none;
+}
+
+.footerHeader {
+    font-size: 15px;
+}
+
+.footerNav {
+    font-size: 12px;
+}
+
+.teamNames {
+    font-size: 12px;
+}
+
+.footerSocial {
+    margin-right: 5px;
+}
+
 }
